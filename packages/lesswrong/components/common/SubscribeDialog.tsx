@@ -103,6 +103,11 @@ const postsPerWeek = forumSelect<Record<string, number>>({
     '30': 2,
     '45': 1,
   },
+  RightAbstractions: {
+    '2': 10,
+    '30': 2,
+    '45': 1,
+  },
 });
 
 const viewNames = {
