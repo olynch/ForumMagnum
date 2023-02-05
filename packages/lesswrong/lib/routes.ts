@@ -1056,6 +1056,14 @@ const forumSpecificRoutes = forumSelect<Route[]>({
       background: postBackground
     },
   ],
+  RightAbstractions: [
+    {
+      name: 'home',
+      path: '/',
+      componentName: 'RAHome',
+      enableResourcePrefetch: true
+    }
+  ],
   default: [
     {
       name:'home',

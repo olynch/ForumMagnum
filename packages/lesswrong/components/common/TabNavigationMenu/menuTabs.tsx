@@ -346,6 +346,17 @@ export const menuTabs: ForumOptions<Array<MenuTab>> = {
       subItem: true,
     }
   ],
+  RightAbstractions: [
+    {
+      id: 'home',
+      title: 'Home',
+      link: '/',
+      iconComponent: Home,
+      tooltip: 'Home page of Right Abstractions',
+      showOnMobileStandalone: true,
+      showOnCompressed: true,
+    }
+  ],
   default: [
     {
       id: 'home',

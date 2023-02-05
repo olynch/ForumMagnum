@@ -1,10 +1,11 @@
 branch-defaults:
-  lw-devel:
-    environment: LessestWrong
   ea-dev:
     environment: EAForum-Staging-2
+  lw-devel:
+    environment: LessestWrong
+  rightabstractions:
+    environment: Rightabstractionsdev-env
 global:
-  # Use deploy.sh to change this to the correct application name
   application_name: APPLICATION_NAME
   branch: null
   default_platform: Docker

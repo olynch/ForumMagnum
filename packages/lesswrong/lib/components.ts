@@ -36,6 +36,10 @@ if (forumTypeSetting.get() === 'EAForum') {
   importComponent("EAUsersProfileTags", () => require('../components/ea-forum/users/modules/EAUsersProfileTags'))
 }
 
+if (forumTypeSetting.get() === 'RightAbstractions') {
+  importComponent("RAHome", () => require('../components/rightabstractions/RAHome'));
+}
+
 importComponent("ConversationTitleEditForm", () => require('../components/messaging/ConversationTitleEditForm'));
 importComponent("ConversationDetails", () => require('../components/messaging/ConversationDetails'));
 importComponent("ConversationItem", () => require('../components/messaging/ConversationItem'));
