@@ -264,7 +264,7 @@ const Layout = ({currentUser, children, classes}: {
               <AnalyticsClient/>
               <AnalyticsPageInitializer/>
               <NavigationEventSender/>
-              <IntercomWrapper/>
+              {/* <IntercomWrapper/> */}
 
               <noscript className="noscript-warning"> This website requires javascript to properly function. Consider activating javascript to get access to all site functionality. </noscript>
               {/* Google Tag Manager i-frame fallback */}
